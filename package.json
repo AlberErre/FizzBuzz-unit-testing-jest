@@ -1,0 +1,34 @@
+{
+  "name": "unit-test-jest",
+  "version": "1.0.0",
+  "description": "unit test using Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/experiments-albererre/unit-test-jest.git"
+  },
+  "author": "Alber Erre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/experiments-albererre/unit-test-jest/issues"
+  },
+  "homepage": "https://github.com/experiments-albererre/unit-test-jest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "@types/jest": "^22.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.3",
+    "jest": "^22.4.3",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "jest": {
+    "testURL": "http://localhost/",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}
